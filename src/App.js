@@ -1,10 +1,10 @@
 import "./App.css";
-import Header from "./Header";
+
+//functional component -- a functiion that returns something
 function App() {
   return (
     <div className="app">
-      <Header />
-      <h1 className="app__title">This is a Title</h1>
+      <h1>Hello World</h1>
     </div>
   );
 }
